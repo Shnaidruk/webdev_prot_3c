@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import l3_3_1 from "../img/l3_3_1.jpg"
 import l3_3_2 from "../img/l3_3_2.jpg"
 import l3_3_3 from "../img/l3_3_3.jpg"
+import l4_desk from "../img/l4_desk.jpg"
 
 
 export function Lab3() {
@@ -97,9 +98,195 @@ export function Lab3() {
 
     const t1 = 
         <div>
+            <img src={l4_desk} alt="" style={{width:'90%'}}/>
             <textarea readonly  style={{width: '90%', height: '400px', 'margin-top': '3%'}}
                 value={`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="l-btn-container">
+            <img class="logo" src="img/Logo.png" alt="">
+            <div class="btn-cont">
+                <button>CAREERS</button>
+                <button>SIGN IN</button>
+            </div>
+        </div>
 
+        <div style=" margin: 10px;">
+            <input type="text" class="search-input" placeholder="Search ...">
+            <button class="search-button">Пошук</button>
+        </div>
+
+        <select class="sort">
+            <option value="ital">Ital</option>
+            <option value="gruz">gruz</option>
+            <option value="ukr">ukr</option>
+        </select>
+
+        <select class="sort">
+            <option value="byrate">By Rate</option>
+            <option value="bynew">By New</option>
+        </select>
+        <div id="line"></div>
+    </header>
+    <main>
+        <section class="cafes">
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/khinkali.jpg" alt="">
+                <h1>Тбілісі</h1>
+                <p>Груз. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/borshch.jpg" alt="">
+                <h1>Борщ</h1>
+                <p>Укр. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/sushi.jpg" alt="">
+                <h1>Хуань</h1>
+                <p>Япон. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/uson.jpg" alt="">
+                <h1>Чжу</h1>
+                <p>Кит. кухня</p>
+            </div>
+
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/pasta.jpg" alt="">
+                <h1>Маріно</h1>
+                        <p>Італ. кухня</p>
+            </div>
+
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/khinkali.jpg" alt="">
+                <h1>Тбілісі</h1>
+                <p>Груз. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/borshch.jpg" alt="">
+                <h1>Борщ</h1>
+                <p>Укр. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/sushi.jpg" alt="">
+                <h1>Хуань</h1>
+                <p>Япон. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/uson.jpg" alt="">
+                <h1>Чжу</h1>
+                <p>Кит. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/pasta.jpg" alt="">
+                <h1>Маріно</h1>
+                <p>Італ. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/khinkali.jpg" alt="">
+                <h1>Тбілісі</h1>
+                <p>Груз. кухня</p>
+            </div>
+
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/borshch.jpg" alt="">
+                <h1>Борщ</h1>
+                <p>Укр. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/sushi.jpg" alt="">
+                <h1>Хуань</h1>
+                <p>Япон. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/uson.jpg" alt="">
+                <h1>Чжу</h1>
+                <p>Кит. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/khinkali.jpg" alt="">
+                <h1>Тбілісі</h1>
+                <p>Груз. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/borshch.jpg" alt="">
+                <h1>Борщ</h1>
+                <p>Укр. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/sushi.jpg" alt="">
+                <h1>Хуань</h1>
+                <p>Япон. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/uson.jpg" alt="">
+                <h1>Чжу</h1>
+                <p>Кит. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/khinkali.jpg" alt="">
+                <h1>Тбілісі</h1>
+                <p>Груз. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/borshch.jpg" alt="">
+                <h1>Борщ</h1>
+                <p>Укр. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/sushi.jpg" alt="">
+                <h1>Хуань</h1>
+                <p>Япон. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/uson.jpg" alt="">
+                <h1>Чжу</h1>
+                <p>Кит. кухня</p>
+            </div>
+
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/pasta.jpg" alt="">
+                <h1>Маріно</h1>
+                <p>Італ. кухня</p>
+            </div>
+
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/khinkali.jpg" alt="">
+                <h1>Тбілісі</h1>
+                <p>Груз. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/borshch.jpg" alt="">
+                <h1>Борщ</h1>
+                <p>Укр. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/sushi.jpg" alt="">
+                <h1>Хуань</h1>
+                <p>Япон. кухня</p>
+            </div>
+            <div class="cafe-container">
+                <img class="first-photo" src="/img/uson.jpg" alt="">
+                <h1>Чжу</h1>
+                <p>Кит. кухня</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="https://t.me/shnaidruk">Contacts</a>
+        <p>About Us</p>
+        <p>FAQ</p>
+    </footer>    
+</body>
+</html>
             `}
             />
         </div>
@@ -198,7 +385,7 @@ export function Lab3() {
     const t2_2 = 
         <div style={{width: '100%'}}>
             <h2>Гумова таблична верстка</h2>
-            <table style={{width: '45.5%', border: 'black 2px solid', height: '1000px', 'border-spacing': '0'}}>
+            <table style={{width: '55%', border: 'black 2px solid', height: '1000px', 'border-spacing': '0'}}>
                 <tr>
                     <td colspan="3" style={{width: '100%', height: '10%', 'background-color': 'orange', border: 'black 2px solid'}}>
                         <table  style={{width: '100%', 'border-spacing': '30px'}}>                                <tr>
@@ -295,15 +482,15 @@ export function Lab3() {
                         <p>1</p>
                     </div>
                 </div>
-                <div style={{width: '800px', height: '800px', border: 'black 2px solid'}}>
+                <div style={{width: '800px', height: '803px', border: 'black 2px solid'}}>
                     <div style={{width: '160px', backgroundColor: 'blue', height: '800px', border: 'black 2px solid', float: 'left', position: 'relative'}}>
                         <p style={{position: 'absolute', top: '40%', left: '50%'}}>2</p>
                     </div>
-                    <div style={{width: '618px', backgroundColor: 'white', height: '784px', border: 'black 2px solid', float: 'left', 'padding': '1%'}}>
+                    <div style={{width: '635px', backgroundColor: 'white', height: '803px', border: 'black 2px solid', float: 'left', 'padding': '1%', 'box-sizing': 'border-box'}}>
                         <div style={{width: '593px', backgroundColor: 'red', height: '160px', border: 'black 2px solid', margin: '2%' }}>
 
                         </div>
-                        <div style={{width: '281px', backgroundColor: 'white', height: '565px', border: 'black 2px solid', margin: '2%', float: 'left', position: 'relative'}}>
+                        <div style={{width: '281px', backgroundColor: 'white', height: '565px', border: 'black 2px solid', margin: '2%', float: 'left', position: 'relative', 'box-sizing': 'border-box'}}>
                             <div style={{height: '70%', position: 'relative'}}>
                                 <p style={{position: 'absolute', top: '40%', left: '50%'}}>3</p>
                             </div>
@@ -311,7 +498,7 @@ export function Lab3() {
 
                             </div>
                         </div>
-                        <div style={{width: '281px', backgroundColor: 'blue', height: '565px', border: 'black 2px solid', margin: '2%', float: 'left', position: 'relative' }}>
+                        <div style={{width: '281px', backgroundColor: 'blue', height: '565px', border: 'black 2px solid', margin: '2%', float: 'left', position: 'relative', 'box-sizing': 'border-box' }}>
                             <p style={{position: 'absolute', top: '30%', left: '50%'}}>4</p>
                         </div>
                     </div>
@@ -361,7 +548,7 @@ export function Lab3() {
     const t2_4 =
         <div style={{width: '100%'}}>
             <h2>Гумова блокова верстка</h2>
-            <div style={{width: '45.3%', height: '1000px'}}>
+            <div style={{width: '55%', height: '1000px'}}>
                 <div style={{width: '100%', height: '100px', 'background-color': 'orange', border: 'black 2px solid', 'box-sizing': 'border-box'}}>
                     <div style={{width: '40%', height: '48px', 'background-color': 'white', border: 'black 2px solid', float: 'left', 'margin-top': '3%', 'margin-left': '3%','box-sizing': 'border-box'}}>
 

@@ -5,6 +5,9 @@ import { Lab3 } from "./components/Lab3";
 import { Lab4 } from "./components/Lab4";
 import { Lab5 } from "./components/Lab5";
 import { Lab6 } from "./components/Lab6";
+import { Lab7 } from "./components/Lab7";
+import { Lab8 } from "./components/Lab8";
+import { Lab9 } from "./components/Lab9";
 
 import "./css/style.css";
 import React, { useState } from 'react';
@@ -38,7 +41,9 @@ function App() {
           <Button buttonText="Лабораторна робота №4" onClick={() => changePageContext(<Lab4/>)}/>
           <Button buttonText="Лабораторна робота №5" onClick={() => changePageContext(<Lab5/>)}/>
           <Button buttonText="Лабораторна робота №6" onClick={() => changePageContext(<Lab6/>)}/>
-          <Button buttonText="Лабораторна робота №7" onClick={() => changePageContext()}/>
+          <Button buttonText="Лабораторна робота №7" onClick={() => changePageContext(<Lab7/>)}/>
+          <Button buttonText="Лабораторна робота №8" onClick={() => changePageContext(<Lab8/>)}/>
+          <Button buttonText="Лабораторна робота №9" onClick={() => changePageContext(<Lab9/>)}/>
         </div>
         <div>
           {pageContext}  
