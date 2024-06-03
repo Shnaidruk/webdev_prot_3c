@@ -3,7 +3,20 @@ import React, { useState } from 'react';
 import l5_p4 from "../img/l5_p4.jpg";
 import l5_p6_1 from "../img/l5_p6_1.jpg";
 import l5_p6_2 from "../img/l5_p6_2.jpg";
-import l5_p6_3 from "../img/l5_p6_3.jpg"
+import l5_p6_3 from "../img/l5_p6_3.jpg";
+import t2 from "../img/lab5_1/t2.jpg";
+import t4 from "../img/lab5_1/t4.jpg";
+import t6 from "../img/lab5_1/t6.jpg";
+import t8 from "../img/lab5_1/t8.jpg";
+import t9 from "../img/lab5_1/t9.jpg";
+import t10 from "../img/lab5_1/t10.jpg";
+import r2 from "../img/lab5_1/r2.jpg";
+import r4 from "../img/lab5_1/r4.jpg";
+import r6 from "../img/lab5_1/r6.jpg";
+import r8 from "../img/lab5_1/r8.jpg";
+import r9 from "../img/lab5_1/r9.jpg";
+import r10 from "../img/lab5_1/r10.jpg";
+
 
 
 export function Lab5() {
@@ -255,6 +268,42 @@ document.getElementById('menu').appendChild(createMenu(menuData));
                 `}/>
         </div>
 
+
+    const l5_1 = 
+        <div>
+            <h2>Лабораторна 5.1</h2>
+            <h3>Завдання 2</h3>
+            <p>JS-код</p>
+            <img src={t2} alt="" />
+            <p>Результат</p>
+            <img src={r2} alt="" />
+            <h3>Завдання 4</h3>
+            <p>JS-код</p>
+            <img src={t4} alt="" />
+            <p>Результат</p>
+            <img src={r4} alt="" />
+            <h3>Завдання 6</h3>
+            <p>JS-код</p>
+            <img src={t6} alt="" />
+            <p>Результат</p>
+            <img src={r6} alt="" />
+            <h3>Завдання 8</h3>
+            <p>JS-код</p>
+            <img src={t8} alt="" />
+            <p>Результат</p>
+            <img src={r8} alt="" />
+            <h3>Завдання 9</h3>
+            <p>JS-код</p>
+            <img src={t9} alt="" />
+            <p>Результат</p>
+            <img src={r9} alt="" />
+            <h3>Завдання 10</h3>
+            <p>JS-код</p>
+            <img src={t10} alt="" />
+            <p>Результат</p>
+            <img src={r10} alt="" />
+        </div>
+
     const vysn =
         <div>
             <h3>Висновки</h3>
@@ -283,6 +332,9 @@ document.getElementById('menu').appendChild(createMenu(menuData));
                     </li>
                     <li>
                         <Button buttonText="Пункт 6" onClick={() => changeContext(p6)} />
+                    </li>
+                    <li>
+                        <Button buttonText="Лабораторна №5.1" onClick={() => changeContext(l5_1)} />
                     </li>
                     <li>
                         <Button buttonText="Висновки до ЛР №5" onClick={() => changeContext(vysn)} />
