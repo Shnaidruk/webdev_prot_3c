@@ -73,10 +73,6 @@ export function Lab1() {
         </ul>
     </div>;
 
-    const pidcl = 
-        <div>
-            
-        </div>;
 
     const struct = 
         <div>
